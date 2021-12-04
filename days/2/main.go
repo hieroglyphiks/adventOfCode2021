@@ -10,7 +10,7 @@ func main() {
 	//======
 	var inputFilepath string
 
-	flag.StringVar(&inputFilepath, "i", "", "input filepath")
+	flag.StringVar(&inputFilepath, "i", "input.txt", "input filepath")
 	flag.Parse()
 
 	// PARSE INPUT
